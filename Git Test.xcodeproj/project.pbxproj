@@ -21,6 +21,7 @@
 		744241D71940DE1D0002D4E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744241B91940DE1C0002D4E7 /* UIKit.framework */; };
 		744241DF1940DE1D0002D4E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 744241DD1940DE1D0002D4E7 /* InfoPlist.strings */; };
 		744241E11940DE1D0002D4E7 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 744241E01940DE1D0002D4E7 /* Git_TestTests.m */; };
+		744241EC1940EB9A0002D4E7 /* RSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 744241EB1940EB9A0002D4E7 /* RSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		744241DC1940DE1D0002D4E7 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		744241DE1940DE1D0002D4E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		744241E01940DE1D0002D4E7 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		744241EA1940EB9A0002D4E7 /* RSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSTest.h; path = ../RSTest.h; sourceTree = "<group>"; };
+		744241EB1940EB9A0002D4E7 /* RSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSTest.m; path = ../RSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				744241C71940DE1C0002D4E7 /* Main.storyboard */,
 				744241CA1940DE1C0002D4E7 /* RSViewController.h */,
 				744241CB1940DE1C0002D4E7 /* RSViewController.m */,
+				744241EA1940EB9A0002D4E7 /* RSTest.h */,
+				744241EB1940EB9A0002D4E7 /* RSTest.m */,
 				744241CD1940DE1D0002D4E7 /* Images.xcassets */,
 				744241BC1940DE1C0002D4E7 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744241EC1940EB9A0002D4E7 /* RSTest.m in Sources */,
 				744241C21940DE1C0002D4E7 /* main.m in Sources */,
 				744241C61940DE1C0002D4E7 /* RSAppDelegate.m in Sources */,
 				744241CC1940DE1C0002D4E7 /* RSViewController.m in Sources */,
@@ -456,6 +462,7 @@
 				744241E61940DE1D0002D4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		744241E71940DE1D0002D4E7 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				744241E91940DE1D0002D4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
